@@ -1,0 +1,11 @@
+[package]
+name = "truth-table-generator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ariadne = "0.2.0"
+cas-compute = { path = "../cas-rs/cas-compute/" }
+cas-parser = { path = "../cas-rs/cas-parser/" }
